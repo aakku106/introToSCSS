@@ -26,6 +26,7 @@ npm install -g sass
         sass source/stylesheets/index.scss build/stylesheets/index.css
 ```
 ###Example
+```
     $primary-color: #333;
 
 body {
