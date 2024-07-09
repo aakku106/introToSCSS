@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: $secondary-background-color;
+    color: $secondary-text-color;
+  
+    @import "header";
+    @import "contact";
+
+  }
+  

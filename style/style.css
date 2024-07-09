@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #d282e1;
+}
+body header {
+  background-color: #0a9c7a;
+  color: #333f00;
+  padding: 10px;
+  text-align: center;
+}
+body header button {
+  background-color: #090943;
+  color: #d282e1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+body header button:hover {
+  background-color: #0a9c7a;
+  color: #f4f4f4;
+}
+body header button:active {
+  background-color: #f4f4f4;
+  color: #090943;
+}
+body header button::after {
+  content: "😚";
+}
+body header button::before {
+  content: "😙";
+}/*# sourceMappingURL=style.css.map */
