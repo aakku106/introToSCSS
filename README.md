@@ -25,7 +25,7 @@ To get started with SCSS, you need to have Node.js installed on your computer. O
 npm install -g sass
         sass source/stylesheets/index.scss build/stylesheets/index.css
 ```
-###Example
+### Example
 ```
     $primary-color: #333;
 
