@@ -1,12 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: $secondary-background-color;
-    color: $secondary-text-color;
-  
-    @import "header";
-    @import "contact";
+@mixin colour($bgclr, $txtclr) {
+  background-color: $bgclr;
+  color: $txtclr;
+}
 
+@mixin btnhover($bgclr, $txtclr) {
+  &:hover {
+    background-color: $bgclr;
+    color: $txtclr;
   }
-  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #937d71;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @import "header";
+  @import "contact";
+  @import "button";
+}

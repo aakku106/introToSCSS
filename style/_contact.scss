@@ -1,4 +1,12 @@
 .contact {
-    height: 10vw;
-  @include header(red, blue);
+  width: 99vw;
+  height: 9vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+flex-direction: column;
+
+
+  @include colour($secondary-background-color, $secondary-text-color);
 }

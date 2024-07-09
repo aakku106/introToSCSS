@@ -1,62 +1,13 @@
-// header {
-//   background-color: $primary-background-color;
-//   color: $primary-text-color;
-//   padding: 10px;
-//   text-align: center;
-
-//   button {
-//     background-color: $primary-button-color;
-//     color: $secondary-text-color;
-//     padding: 10px;
-//     border: none;
-//     border-radius: 5px;
-//     cursor: pointer;
-//     margin: 5px;
-//     &:hover {
-//       background-color: $primary-background-color;
-//       color: $secondary-button-color;
-//     }
-//     &:active {
-//       background-color: $secondary-button-color;
-//       color: $primary-button-color;
-//     }
-//     &::after {
-//       content: "😚";
-//     }
-//     &::before {
-//       content: "😙";
-//     }
-//   }
-// }
-@mixin header($bkclr, $clr) {
-  background-color: $bkclr;
-  color: $clr;
-}
 header {
-  @include header($primary-background-color, $primary-text-color);
-  padding: 10px;
-  text-align: center;
-  button {
-    background-color: $primary-button-color;
-    color: $secondary-text-color;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px;
-    &:hover {
-      background-color: $primary-background-color;
-      color: $secondary-button-color;
-    }
-    &:active {
-      background-color: $secondary-button-color;
-      color: $primary-button-color;
-    }
-    &::after {
-      content: "😚";
-    }
-    &::before {
-      content: "😙";
-    }
-  }
+  width: 99vw;
+  height: 9vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  @include colour($primary-background-color, $primary-text-color);
+  color: red;
+  background-color: pink;
 }

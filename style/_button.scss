@@ -1,0 +1,6 @@
+button {
+  @include colour($primary-button-color, $secondary-text-color);
+  @include btnhover($secondary-text-color, $secondary-background-color);
+
+  transition: all 0.3s ease-in-out;
+}
