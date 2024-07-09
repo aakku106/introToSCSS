@@ -34,4 +34,9 @@ body header button::after {
 }
 body header button::before {
   content: "😙";
+}
+body .contact {
+  height: 10vw;
+  background-color: red;
+  color: blue;
 }/*# sourceMappingURL=style.css.map */
